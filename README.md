@@ -90,3 +90,9 @@ O site começa privado. Convites de campanha não alteram o acesso da hospedagem
 ## GitHub
 
 Publicar somente após implementar e validar a primeira edição, conforme solicitado. Segredos, banco local, dados de teste e artefatos de execução devem permanecer fora do repositório.
+
+## Aplicativo Windows
+
+`desktop/` contém o código C# e o script de compilação do executável de acesso ao jogo online. Ele abre a publicação em uma janela do Edge com a sessão normal do navegador, ou oferece o navegador padrão se não encontrar Edge. Não incorpora servidor, chave de API nem modo offline. Windows 10/11 com .NET Framework 4.8; não requer instalação ou privilégios de administrador.
+
+Execute `powershell -ExecutionPolicy Bypass -File desktop/build.ps1` no Windows para gerar `outputs/windows/Cronicas de Aether.exe`, o ZIP e o SHA256. A compilação usa somente recursos locais do Windows. `--check` verifica a presença do Edge sem abrir o navegador (retorno 0: encontrado; 2: ausente). Compilação, diagnóstico e conteúdo do ZIP verificados; abertura visual e login pela janela do aplicativo ainda não verificados. O binário não possui assinatura digital comercial.

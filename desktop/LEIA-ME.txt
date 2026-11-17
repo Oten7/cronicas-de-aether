@@ -1,0 +1,17 @@
+CRÔNICAS DE AETHER — WINDOWS
+
+Abra "Cronicas de Aether.exe" com dois cliques. Não precisa instalar nem executar como administrador.
+
+Este aplicativo abre o jogo online em uma janela do Microsoft Edge. Usa a sessão normal do Edge. Se o Edge não estiver disponível, oferece o navegador padrão.
+
+Requisitos: Windows 10 ou 11, .NET Framework 4.8 (normalmente já incluído no Windows), navegador atualizado e internet. Não é uma versão offline: a IA e o salvamento continuam no servidor.
+
+Entre com a conta que possui acesso ao site privado. O executável não concede acesso a outras contas. Se o login não funcionar na janela, abra o endereço abaixo no Edge, entre na conta e abra o executável novamente.
+
+https://cronicas-de-aether-rpg.vigilantpearl8.chatgpt.site
+
+Suas campanhas ficam na conta online. Mover ou apagar este executável não apaga o progresso. As atualizações do site aparecem automaticamente. Não há chave de API dentro do aplicativo.
+
+O executável é uma compilação própria sem assinatura digital comercial. O Windows pode mostrar um aviso de editor desconhecido. O arquivo SHA256.txt permite conferir a integridade da cópia.
+
+Para remover, basta apagar os arquivos extraídos. O histórico e a sessão do navegador são gerenciados pelo próprio Edge.
