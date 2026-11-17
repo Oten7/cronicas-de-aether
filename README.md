@@ -1,5 +1,17 @@
 # Crônicas de Aether
 
+## Baixar o aplicativo para Windows
+
+**[Baixar Crônicas de Aether para Windows (.exe, 124 MB)](https://github.com/Oten7/cronicas-de-aether/releases/download/v1.0.0-windows/Instalar-Cronicas-de-Aether.exe)**
+
+Instale e abra pelo atalho da área de trabalho. Esta edição tem janela própria, campanhas solo, salvamento no computador e exportação/restauração de backups. Não precisa abrir o site.
+
+Cada jogador deve configurar sua própria chave Gemini em **Dados e Mestre IA**. Novas narrações precisam de internet e cota no provedor. Chaves e saves pessoais não estão incluídos no download. Campanhas do site e salas online não são sincronizadas com esta edição.
+
+[Instruções completas e verificação SHA256](https://github.com/Oten7/cronicas-de-aether/releases/tag/v1.0.0-windows). Instalador para Windows 10/11 x64, ainda sem assinatura digital de editor.
+
+## Versão web
+
 RPG de mesa em português brasileiro com Mestre Gemini real, regras D20 no servidor e campanhas persistentes em Cloudflare D1. Esta é a primeira edição funcional, não a implementação integral de todas as expansões do projeto original.
 
 ## Funcionalidades
@@ -91,7 +103,9 @@ O site começa privado. Convites de campanha não alteram o acesso da hospedagem
 
 Publicar somente após implementar e validar a primeira edição, conforme solicitado. Segredos, banco local, dados de teste e artefatos de execução devem permanecer fora do repositório.
 
-## Aplicativo Windows
+## Inicializador Windows legado (código anterior)
+
+O código descrito abaixo é o inicializador antigo do site, não o aplicativo independente distribuído na Release 1.0.0. Para instalar o aplicativo com saves locais, use o download no início desta página.
 
 `desktop/` contém o código C# e o script de compilação do executável de acesso ao jogo online. Ele abre a publicação em uma janela do Edge com a sessão normal do navegador, ou oferece o navegador padrão se não encontrar Edge. Não incorpora servidor, chave de API nem modo offline. Windows 10/11 com .NET Framework 4.8; não requer instalação ou privilégios de administrador.
 
